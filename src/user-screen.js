@@ -1,11 +1,11 @@
 import React from 'react';
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 
-const SettingsScreen = () => {
+const UserScreen = () => {
   return (
     <View style={styles.root}>
       <StatusBar animated={true} barStyle={'light-content'} />
-      <Text>Settings Screen!</Text>
+      <Text>User Screen!</Text>
     </View>
   );
 };
@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SettingsScreen;
+export default UserScreen;
